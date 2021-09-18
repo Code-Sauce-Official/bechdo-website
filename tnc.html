@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Bech Do</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Icon -->
+  <link rel="stylesheet" href="assets/fonts/line-icons.css">
+  <!-- Owl carousel -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.css">
+
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/nivo-lightbox.css">
+  <!-- Animate -->
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <!-- Main Style -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <!-- Responsive Style -->
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <style>
+    body {
+      font-family: 'Montserrat';
+    }
+
+    .border {
+      font-size: 1.6rem;
+      display: grid;
+      place-items: center;
+      min-height: 200px;
+      border: 8px solid;
+      padding: 1rem;
+    }
+
+    .full {
+      border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
+    }
+
+    .sides {
+      border-image: linear-gradient(to left, turquoise, greenyellow) 1 0;
+    }
+
+    .sides-2 {
+      border-image: linear-gradient(to bottom, turquoise, greenyellow) 0 1;
+    }
+
+    .linear-repeating {
+      border-width: 10px;
+      border-image: repeating-linear-gradient(45deg, turquoise, pink 4%) 1;
+    }
+
+    .radial-repeating {
+      border-width: 20px;
+      border-image: repeating-radial-gradient(circle at 10px,
+          turquoise,
+          pink 2px,
+          greenyellow 4px,
+          pink 2px) 1;
+    }
+
+    /* border radius example is drawn from this pen: https://codepen.io/shshaw/pen/MqMZGR
+I've added a few comments on why we're using certain properties
+*/
+
+    .full-withradius {
+      position: relative;
+      background: #fff;
+
+      /*The background extends to the outside edge of the padding. No background is drawn beneath the border.*/
+      background-clip: padding-box;
+
+      border: solid 8px transparent;
+      border-radius: 0.8rem;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        margin: -8px;
+        /* same as border width */
+        border-radius: inherit;
+        /* inherit container box's radius */
+        background: linear-gradient(to left, turquoise, greenyellow);
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Header Area wrapper Starts -->
+  <header id="header-wrap">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt="logo" width="100" height="60"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="lni-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#services">
+                Services
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#team">
+                Team
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#testimonial">
+                Testimonial
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">
+                Contact
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="tnc.html">
+                TnC
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="privacy.html">
+                Privacy Policy
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+      <div><br><br></div>
+    <!-- TnC Section Start -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Terms and Conditions</h2>
+          <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+        </div>
+        <div class="sides border" style="color:black;">
+          <div style="text-align: center;">
+          <p>
+            By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. You’re not allowed to copy, or modify the app, any part of the app, or our
+            trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also shouldn’t try to translate the app into other languages, or make derivative versions. The app itself, and all the trade marks,
+            copyright, database rights and other intellectual property rights related to it, still belong to Code Sauce.
+            Code Sauce is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge
+            you for the app or its services without making it very clear to you exactly what you’re paying for.
+            The BechDo app stores and processes personal data that you have provided to us, in order to provide our Service. It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or
+            root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your
+            phone’s security features and it could mean that the BechDo app won’t work properly or at all.<br>
+            The app does use third party services that declare their own Terms and Conditions.
+            Link to Terms and Conditions of third party service providers used by the app
+          </p>
+          <ul>
+    <li><a href="https://policies.google.com/terms">
+        <p>Google Play Services</p>
+      </a></li>
+    <li><a href="https://developers.google.com/admob/terms">
+        <p>AdMob</p>
+      </a></li>
+    <li><a href="https://firebase.google.com/terms/analytics">
+        <p>Google Analytics for Firebase</p>
+      </a></li>
+  </ul>
+          <p>
+            You should be aware that there are certain things that Code Sauce will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi, or provided by your
+            mobile network provider, but Code Sauce cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.
+            If you’re using the app outside of an area with Wi-Fi, you should remember that your terms of the agreement with your mobile network provider will still apply. As a result, you may be charged by your mobile provider for the cost of data
+            for
+            the duration of the connection while accessing the app, or other third party charges. In using the app, you’re accepting responsibility for any such charges, including roaming data charges if you use the app outside of your home territory
+            (i.e. region or country) without turning off data roaming. If you are not the bill payer for the device on which you’re using the app, please be aware that we assume that you have received permission from the bill payer for using the app.
+            Along the same lines, Code Sauce cannot always take responsibility for the way you use the app i.e. You need to make sure that your device stays charged – if it runs out of battery and you can’t turn it on to avail the Service, Code Sauce
+            cannot accept responsibility.
+            With respect to Code Sauce’s responsibility for your use of the app, when you’re using the app, it’s important to bear in mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties
+            to
+            provide information to us so that we can make it available to you. Code Sauce accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.
+            At some point, we may wish to update the app. The app is currently available on Android & iOS – the requirements for both systems(and for any additional systems we decide to extend the availability of the app to) may change, and you’ll
+            need
+            to download the updates if you want to keep using the app. Code Sauce does not promise that it will always update the app so that it is relevant to you and/or works with the Android & iOS version that you have installed on your device.
+            However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you
+            otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.
+          </p><br>
+          </div>
+          <div class="section-header text-center">
+            <h5>Regarding College ID submission</h5>
+            <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+
+            <p>Please submit a valid college ID. If your college ID is found to be forged/fake, your account will be disabled. To enable your account, contact us at <strong>bechdoofficial@gmail.com</strong>.</p>
+          </div>
+
+
+          <div class="section-header text-center">
+            <h5>Changes to This Terms and Conditions</h5>
+            <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+
+            <p>We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page.
+              These terms and conditions are effective as of <strong>2021-08-19</strong>.
+            </p>
+          </div>
+          <div class="section-header text-center">
+            <h5>Contact Us</h5>
+            <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+
+            <p>If you have any questions or suggestions about our Terms and Conditions, do not hesitate to contact us at bechdoofficial@gmail.com.
+              This Terms and Conditions policy was generated with the help of App Privacy Policy Generator
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- Services Section Start -->
+
+
+
+
+    <!-- Footer Section Start -->
+    <footer id="footer" class="footer-area section-padding">
+      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+              <div class="widget">
+                <h3 class="footer-logo"><img src="assets/img/logo.png" alt="" width="150" height="100"></h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+              <div class="widget">
+                <div class="textwidget">
+                  <p>Bech Do is a product developed under Code Sauce. For more info check out the media handles of Code Sauce
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+              <h3 class="footer-title">Find us on: </h3>
+              <div class="social-icon">
+                <a class="facebook" href="#"><i class="lni-facebook-filled"></i></a>
+                <a class="twitter" href="#"><i class="lni-twitter-filled"></i></a>
+                <a class="instagram" href="https://www.instagram.com/codesauceofficial/"><i class="lni-instagram-filled"></i></a>
+                <a class="linkedin" href="#"><i class="lni-linkedin-filled"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+              <h3 class="footer-title">Contact</h3>
+              <ul class="address">
+                <li>
+                  <a href="mailto: bechdoofficial@gmail.com"><i class="lni-envelope"></i><u>bechdoofficial@gmail.com<u></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="copyright-content">
+                <p>Copyright © 2021 <a rel="nofollow" href="">Code Sauce</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="lni-arrow-up"></i>
+    </a>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
