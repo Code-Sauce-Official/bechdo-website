@@ -98,7 +98,7 @@
               <div class="header-button">
                 <a href="https://www.youtube.com/watch?v=ZAZCLthpxZo" class="btn btn-border video-popup">Intro Video</a>
                 <a href="https://github.com/Code-Sauce-Official/BechDo-Application/releases/download/v1.0/app-release.apk" class="btn btn-common">Download Now</a>
-                <a href="#" class="btn btn-border">FAQs</a>
+                <button href="#" class="btn btn-border" data-toggle="modal" data-target="#myModal">FAQs</button>
               </div>
             </div>
           </div>
@@ -761,6 +761,50 @@
   <a href="#" class="back-to-top">
     <i class="lni lni-arrow-up"></i>
   </a>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+        
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h5 class="modal-title">FAQs</h5>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          
+          <!-- Modal body -->
+          <div class="modal-body" style="color: black;">
+            <h6>1. Do we have a payment gateway?</h6>
+            <p>No, we do not support any online payments as of now, the buyer can interact with the seller using the inbuilt chat functionality and discuss the mode of payment. This also makes the prices negotiable.😉</p>
+            <br>
+            <h6>2. Can I only see products from my own college?</h6>
+            <p>No, products from all the listed colleges will be visible and available to every user. However one can use the college filter to see products of only their or a particular college.</p>
+            <br>
+            <h6>3. What should I keep in mind while posting a product?</h6>
+            <p>While posting a product for rent or sale, add a proper title and description related to the product. The price should be reasonable and product photos should be clear. Also, keep in mind that an appropriate category should be selected while putting up the product on the app.</p>
+            <br>
+            <h6>4. How do I delete the product once the transaction has taken place?</h6>
+            <p>Once the transaction has taken place, you can mark the product as unavailable (in cases of rent) or you can remove the product permanently from the application as well. Both the options have been listed &amp; can be seen once you open the product description.</p>
+            <br>
+            <h6>5. How can I update my account information?</h6>
+            <p>On the top right corner of the app dashboard, you can open your profile by clicking on the image icon. There, you are given the option to edit your name, year or profile photo if you want to. Rest of the fields cannot be updated/changed once saved while creating the profile.</p>
+            <br>
+            <h6>6. Can I delete my account?</h6>
+            <p>No, the account cannot be deleted once created.</p>
+            <br>
+            <h6>7. How do I search for a product?</h6>
+            <p>Go to the search bar at the top of your screen and search for a product by name. You can also filter products by type(rent or sale), college, price and/or category.</p>
+          </div>
+          
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
 
   <!-- Preloader -->
   <div id="preloader">

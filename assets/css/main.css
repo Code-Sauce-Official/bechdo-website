@@ -1582,7 +1582,7 @@ img, svg {
   opacity: 0.8;
 }
 .iconl {
-  color: #0022b3;
+  color: #4162f5;
   font-size: 100px;
   position: absolute;
   top: 50%;
@@ -1593,5 +1593,17 @@ img, svg {
 }
 
 .lni-linkedin-original:hover {
-  color: #0022b3;
+  color: #4162f5;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
 }
